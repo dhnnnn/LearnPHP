@@ -3,6 +3,7 @@
 $mahasiswa= [
     ["Dhani", "09123810", "Teknik Informatika", "dhanidwi@email.com"],
     ["Mada", "09934223810", "Teknik Informatika", "mada@email.com"]
+    ["Rbiatul", "02394223810", "Teknik Informatika", "robiatul@email.com"]
 ];
 
 ?>
