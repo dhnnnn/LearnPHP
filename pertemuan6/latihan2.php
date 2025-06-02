@@ -25,9 +25,8 @@ $mahasiswa = [
 
 // memanggil array di dalam array
 // echo $mahasiswa[1]["jurusan"]
-//pppp
-//pppp
 
+//kajfioajfa
 
 
 
