@@ -27,7 +27,7 @@ use phpdasar; //masuk ke database
 
 create table mahasiswa (id int primary key auto_increment,
 nama varchar(100),
-npm char(10),
+npm char(10), //char ini digunakan jika sudah di ketahui untuk panjang data
 email varchar(100),
 urusan varchar(100)); //menambah stuktur tabel
 
