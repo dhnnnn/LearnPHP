@@ -1,0 +1,30 @@
+struktur databases
+
+database : phpdasar
+tabel : mahasiswa
+
+
+id int primary key auto_increment
+nama varchar(100)
+npm varchar(100)
+email varchar(100)
+jurusan varchar(10
+
+
+============================================================================================
+
+Syntax sql
+
+=============
+
+mysql -u root -p //cara masuk
+
+show databases; //menampilkan databases
+create database phpdasar; //menambah database
+use phpdasar; //masuk ke database
+
+create table mahasiswa (id int primary key auto_increment,
+nama varchar(100),
+npm char(10),
+email varchar(100),
+urusan varchar(100)); //menambah stuktur tabel
