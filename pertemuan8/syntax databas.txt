@@ -17,6 +17,8 @@ Syntax sql
 
 =============
 
+=> Create
+
 mysql -u root -p //cara masuk
 
 show databases; //menampilkan databases
@@ -28,3 +30,24 @@ nama varchar(100),
 npm char(10),
 email varchar(100),
 urusan varchar(100)); //menambah stuktur tabel
+
+
+
+=> Menampilkan
+
+select * from mahasiswa; // menampilkan semua table * artinya mengambil semua data
+
+select * from mahasiswa where npm = 123923829 ; // menampilkan tabel masswa yang npmnya sesuai
+
+
+
+=> Update
+
+update mahasiswa set jurusan = 'Teknik informasi' where id = '1'; //update table 
+
+
+=> Delete
+
+drop table mahasiswa; //menghapus struktur tabel
+
+drop database phpdasar; //menghapus database
