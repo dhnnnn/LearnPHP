@@ -51,7 +51,3 @@ update mahasiswa set jurusan = 'Teknik informasi' where id = '1'; //update table
 drop table mahasiswa; //menghapus struktur tabel
 
 drop database phpdasar; //menghapus database
-
-
-
-adsadawdapadlsa
