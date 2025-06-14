@@ -52,6 +52,3 @@ drop table mahasiswa; //menghapus struktur tabel
 
 drop database phpdasar; //menghapus database
 
-
-
-kadjsaisdoa
