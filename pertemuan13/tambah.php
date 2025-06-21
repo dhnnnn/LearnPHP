@@ -5,7 +5,6 @@ require 'functions.php';
 if(isset($_POST["submit"])){
 
 
-    var_dump($_FILES);die;
     //cek apakah data berhasil di tambahkan
     if(tambah($_POST) > 0){
         echo "

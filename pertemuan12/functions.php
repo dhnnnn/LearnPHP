@@ -17,20 +17,20 @@ function query($query) {
 function tambah($data){
     global $db;
 
+    //apload gambar
+    $gambar = upload();
     $nama = htmlspecialchars($data["nama"]);
     $npm = htmlspecialchars($data["npm"]);
     $email = htmlspecialchars($data["email"]);
     $jurusan = htmlspecialchars($data["jurusan"]);
     
-    //apload gambar
-    $gambar = upload();
-    if(!gambar){
+    if(!$gambar){
         return false;
     }
 
     $query = "INSERT INTO mahasiswa
                 VALUES
-                ('', '$nama', '$npm', '$email', '$jurusan')
+                ('', '$gambar', '$nama', '$npm', '$email', '$jurusan')
             ";
     mysqli_query($db, $query);
 
