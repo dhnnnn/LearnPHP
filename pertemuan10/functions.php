@@ -16,19 +16,30 @@ function query($query) {
 
 function tambah($data){
     global $db;
-    $nama = $_data["nama"];
-    $npm = $_data["npm"];
-    $email = $_data["email"];
-    $jurusan = $_data["jurusan"];
+    $nama = htmlspecialchars($data["nama"]);
+    $npm = htmlspecialchars($data["npm"]);
+    $email = htmlspecialchars($data["email"]);
+    $jurusan = htmlspecialchars($data["jurusan"]);
 
     $query = "INSERT INTO mahasiswa
                 VALUES
                 ('', '$nama', '$npm', '$email', '$jurusan')
             ";
-    mysqli_query($connnn, $query);
+    mysqli_query($db, $query);
 
 
 
     return mysqli_affected_rows($db);
 }
+
+function hapus($id) {
+    global $db;
+    mysqli_query($db, "DELETE FROM mahasiswa WHERE id = $id");
+
+    return mysqli_affected_rows($db);
+}
+
+
+
+
 ?>
