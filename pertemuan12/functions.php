@@ -39,26 +39,6 @@ function tambah($data){
     return mysqli_affected_rows($db);
 }
 
-function upload(){
-    
-    $nameFile = $_FILES['gambar']['name'];
-    $ukuranFile = $_FILES['gambar']['size'];
-    $error = $_FILES['gambar']['error'];
-    $tmpName = $_FILES['gambar']['tmp_name'];
-
-
-    //cek apakah ada gambar yang di upload
-    if($error === 4) {
-        echo "
-            <script>
-                alert('Pilih gambar terlebih dhaulu');
-            </script>
-            ";
-        return false;
-    }
-}
-
-
 function hapus($id) {
     global $db;
 
