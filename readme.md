@@ -34,14 +34,14 @@ Oleh: Sandhika Galih (Web Programming UNPAS)
 1. Install [XAMPP](https://www.apachefriends.org/download.html).
 2. Buka di terminal dan pastikan di dalam direktori htdocs/
 3. Clone repositori ini : 
-bash
-git clone
-
+```bash
+git clone https://github.com/dhnnnn/BelajarPHP.git
+```
 4. Jalankan Apache (dan MySQL jika diperlukan).
 5. Akses di browser via:
-arduino
+```arduino
 http://localhost/belajar-php-dasar/
-
+```
 
 ## ✍ Catatan Pribadi
 
