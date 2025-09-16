@@ -1,4 +1,4 @@
-# 📘Belajar PHP Dasar aiohfdsuioahdfoiuasd
+# 📘Belajar PHP Dasar
 
 Repositori ini berisi kumpulan kode dan catatan selama saya belajar PHP Dasar dari seri video YouTube oleh Pak Sandhika Galih.
 
