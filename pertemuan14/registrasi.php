@@ -10,7 +10,7 @@ if( isset($_POST["register"])){
                     alert('user baru berhasil di tambahkan');
                 </script>";
     } else {
-        echo mysqli_error($conn);
+        echo mysqli_error($db);
     }
 
 }
@@ -52,7 +52,7 @@ if( isset($_POST["register"])){
             </li>
             <li>
                 <label for="password2">konfirmasi password :</label>
-                <input type="text" name="password2" id="password2">
+                <input type="password" name="password2" id="password2">
             </li>
             <li>
                 <button type="submit" name="register">Register!</button>
