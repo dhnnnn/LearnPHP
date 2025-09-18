@@ -8,7 +8,7 @@ id int primary key auto_increment
 nama varchar(100)
 npm varchar(100)
 email varchar(100)
-jurusan varchar(10
+jurusan varchar(10)
 
 
 ============================================================================================
